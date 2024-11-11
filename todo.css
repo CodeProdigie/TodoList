@@ -1,0 +1,151 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    max-width:1100px;
+    width:100%;
+}
+
+.todo-body{
+    max-width:550px;
+    width:100%;
+    padding:1rem 2rem;
+    background-color: #ffff;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.todo-body .top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap:5px;
+    margin-bottom: 12px;
+}
+
+.todo-body .top .top-1{
+  display: flex;
+  align-items: center;
+  gap:5px;
+}
+
+.todo-body .top i{
+    font-size: 1.5rem;
+    font-weight: 550;
+    color:rgb(212, 0, 212)
+}
+
+.todo-body .top h2{
+    font-weight: 650;
+    color:rgb(95, 46, 95)
+}
+
+.todo-body .main{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.todo-body .main input{
+    max-width:20rem;
+    width:100%;
+    padding: 4px 1rem;
+    border-radius: 8px;
+    outline: none;
+    border-color: rgb(110, 101, 101);
+    font-size:1rem;
+}
+.todo-body .main i{
+    font-size:1.5rem;
+    font-weight: 600;
+    color:rgb(228, 4, 49);
+    cursor: pointer;
+}
+
+.todo-body ul{
+   margin:10px 5rem;
+   max-width: 50rem;
+}
+
+.buy-credits{
+    width:25rem;
+    padding:10px 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    display: none;
+}
+
+.buy-credits.display{
+    display:initial;
+}
+
+.buy-credits .top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.buy-credits .top i{
+    font-size: 1.7rem;
+    color:rgb(212, 0, 212)
+}
+
+.buy-credits .top h2{
+    font-weight: 650;
+    color:rgb(95, 46, 95)
+}
+
+.buy-credits .paid-coins{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.buy-credits .paid-coins .av-coins .coins{
+    display: flex;
+    align-items: center;
+    gap:4px;
+    padding:4px 0;
+    margin: auto;
+}
+
+.buy-credits .paid-coins .av-coins{
+    margin: auto;
+}
+
+.buy-credits .paid-coins .av-coins .coins i{
+    color:rgb(212, 0, 212);
+}
+
+.buy-credits .paid-coins .av-coins button{
+    padding: 8px 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(212, 0, 212);
+    cursor: pointer;
+    color:#fff;
+    transition: 200ms ease-in-out;
+}
+
+.buy-credits .paid-coins .av-coins button:hover{
+    background-color: #3a3a3a;
+    color:rgb(212, 0, 212);
+}

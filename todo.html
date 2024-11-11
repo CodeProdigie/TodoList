@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review TodoList</title>
+    <link rel="stylesheet" href="todo.css" />
+    <link rel="stylesheet" href="assets/boxicons/css/boxicons.min.css" />
+  </head>
+  <body>
+    <div class="section">
+      <div class="todo-body">
+        <div class="top">
+          <div class="top-1">
+            <i class="bx bxs-paper-plane"></i>
+            <h2>TodoList</h2>
+          </div>
+          <div class="top-1">
+            <i class="bx bx-coin-stack"></i>
+            <h2 class="credit">5</h2>
+          </div>
+        </div>
+        <div class="main">
+          <input type="text" placeholder="Add your List" />
+          <i class="bx bx-comment-add" onclick="addlist()"></i>
+        </div>
+        <ul>
+        </ul>
+      </div>
+      <div class="buy-credits">
+        <div class="top">
+          <i class="bx bx-coin"></i>
+          <h2>Buy More coins</h2>
+        </div>
+        <div class="paid-coins">
+          <div class="av-coins">
+           <div class="coins">
+            <i class="bx bx-coin-stack"></i>
+            <h2 class="coin-count">3</h2>
+           </div>
+           <button class="addcredits btn1">Buy Now</button>
+          </div>
+          <div class="av-coins">
+           <div class="coins">
+            <i class="bx bx-coin-stack"></i>
+            <h2 class="coin-count">5</h2>
+           </div>
+           <button class="addcredits btn2">Buy Now</button>
+          </div>
+          <div class="av-coins">
+           <div class="coins">
+            <i class="bx bx-coin-stack"></i>
+            <h2 class="coin-count btn3">7</h2>
+           </div>
+           <button class="addcredits">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="todo.js"></script>
+  </body>
+</html>
